@@ -62,13 +62,18 @@ function intr(min,max){
 }
 function copyImage(url){
     var img = document.createElement('img');
-    img.src = url;
-    document.body.appendChild(img);
-    var r = document.createRange();
-    r.setStartBefore(img);
-    r.setEndAfter(img);
-    r.selectNode(img);
-    var sel = window.getSelection();
-    sel.addRange(r);
-    document.execCommand('copy');
+	if(img){
+		img.src = url;
+		document.body.appendChild(img);
+		var r = document.createRange();
+		r.setStartBefore(img);
+		r.setEndAfter(img);
+		r.selectNode(img);
+		var sel = window.getSelection();
+		sel.addRange(r);
+		document.execCommand('copy');
+		img.remove()
+	} else {
+		alert("could not create image")
+	}
 }
