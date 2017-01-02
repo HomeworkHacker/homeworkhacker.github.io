@@ -105,5 +105,31 @@ var sci = {
 			txt:"hottest kid in the world",
 			img:""
 		}
+	},
+	DOO: {
+		a: {
+			txt:"",
+			img:""
+		},
+		b: {
+			txt:"",
+			img:""
+		},
+		c: {
+			txt:"",
+			img:""
+		},
+		d: {
+			txt:"",
+			img:""
+		},
+		e: {
+			txt:"",
+			img:""
+		},
+		f: {
+			txt:"",
+			img:""
+		}
 	}
 }
