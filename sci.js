@@ -108,7 +108,7 @@ var sci = {
 	},
 	DOO: {
 		a: {
-			txt:"",
+			txt:"hi",
 			img:""
 		},
 		b: {
@@ -116,7 +116,7 @@ var sci = {
 			img:""
 		},
 		c: {
-			txt:"",
+			txt:"hi",
 			img:""
 		},
 		d: {
