@@ -25,7 +25,7 @@ $("#go")
 		$("div.wave").animate({
 			height: "0%"
 		});
-		$("div.b").fadeIn(200)
+		$("div.b").fadeIn(200);
 	})
 	go()
 })
@@ -77,3 +77,6 @@ function copyImage(url){
 		alert("Error: Could not copy images:  ")
 	}
 }
+$("#cont").click(function(){
+    window.open("contribute.html");
+});
